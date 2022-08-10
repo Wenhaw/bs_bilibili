@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+	<head>
+		<script  src="js/jquery.js"></script>
+		
+		<script type="text/javascript">
+$(function(){	
+	//导航切换
+	$(".menuson li").click(function(){
+		$(".menuson li.active").removeClass("active")
+		$(this).addClass("active");
+	});
+	
+	$('.title').click(function(){
+		var $ul = $(this).next('ul');
+		$('dd').find('ul').slideUp();
+		if($ul.is(':visible')){
+			$(this).next('ul').slideUp();
+		}else{
+			$(this).next('ul').slideDown();
+		}
+	});
+})	
+</script>
+		<meta charset="utf-8" />
+		<title></title>
+		<link href="css/style.css" 
+		rel="stylesheet" type="text/css"/>
+	</head>
+	<body style="background: #f0f9fd;">
+		<div class="lefttop">
+			<span></span>主菜单
+		</div>
+		<dl class="leftmenu">
+		<dd>
+			<div class="title">
+				<span>
+					<img src="img/images/leftico01.png" />
+				</span>视频管理
+			</div>
+			<ul class="menuson">
+				<li class="active">
+					<cite>
+						
+					</cite>
+					<a href="list_v.php" target="rightframe">
+						视频审核
+					</a>
+				</li>
+				<li >
+					<cite>
+						
+					</cite>
+					<a href="list_v1.php" target="rightframe">
+						视频管理
+					</a>
+				</li>
+				<li >
+					<cite>
+						
+					</cite>
+					<a href="video_add.php" target="rightframe">
+						视频添加
+					</a>
+				</li>
+			</ul>
+		</dd>
+		
+		<dd>
+			<div class="title">
+				<span>
+					<img src="img/images/leftico01.png" />
+				</span>评论管理
+			</div>
+			<ul class="menuson">
+				<li class="active">
+					<cite>
+						
+					</cite>
+					<a href="list_c.php" target="rightframe">
+						评论管理
+					</a>
+				</li>
+				<!--<li >
+					<cite>
+						
+					</cite>
+					<a href="list.html" target="rightframe">
+						商品小类
+					</a>
+				</li>
+				<li >
+					<cite>
+						
+					</cite>
+					<a href="proadd.html" target="rightframe">
+						商品添加
+					</a>
+				</li>-->
+			</ul>
+		</dd>
+		
+		<dd>
+			<div class="title">
+				<span>
+					<img src="img/images/leftico01.png" />
+				</span>账号信息
+			</div>
+			<ul class="menuson">
+				<li class="active">
+					<cite>
+						
+					</cite>
+					<a href="list_i.php" target="rightframe">
+						账号信息
+					</a>
+				</li>
+				<!--<li >
+					<cite>
+						
+					</cite>
+					<a href="list.html" target="rightframe">
+						商品小类
+					</a>
+				</li>
+				<li >
+					<cite>
+						
+					</cite>
+					<a href="proadd.html" target="rightframe">
+						商品添加
+					</a>
+				</li>-->
+			</ul>
+		</dd>
+			
+		</dl>
+	</body>
+</html>

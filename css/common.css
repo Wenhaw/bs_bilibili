@@ -1,0 +1,32 @@
+/*此文件用于全局设定*/
+*{
+	font-family: "微软雅黑";
+}
+.title{
+	  font-size: 12px;
+}
+.author{
+	font-size:11px ;
+}
+.play{
+	font-size:11px ;
+}
+
+/*暂时*/
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "020";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+

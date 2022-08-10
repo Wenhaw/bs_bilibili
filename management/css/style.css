@@ -1,0 +1,484 @@
+
+*{
+	font-size: 9pt;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body 
+{
+	font-family: "微软雅黑";
+	margin: 0 auto;
+	min-width: 980px;
+}
+.logintop
+{
+	height: 47px;
+	background: url(../img/images/loginbg1.png);
+	width: 100%;
+}
+
+.logintop span
+{
+	color: #fff;
+	background: 
+	url(../img/images/loginsj.png) no-repeat 21px 18px;
+	float: left;
+	
+	text-indent: 44px;
+	
+	line-height: 47px;
+}
+.logintop ul
+{
+	float: right;
+	padding-right: 30px;
+}
+.logintop ul li
+{
+	float: left;
+	margin-left: 20px;
+	line-height: 47px;
+	list-style-type: none;
+}
+.logintop ul li a
+{
+	color: #afc5d2;
+	text-decoration: none;
+}
+.logintop ul li a:hover
+{
+	color: #fff;
+	
+}
+
+.loginbody
+{
+	background: 
+	url(../img/images/loginbg3.png) no-repeat;
+	width: 100%;
+	height: 585px;
+	position: absolute;
+	top: 47px;
+}
+
+.systemlogo
+{
+	background: 
+	url(../img/images/man_logo.png) no-repeat center;
+	width: 100%;
+	height: 71px;
+	margin-top: 75px;
+}
+span
+{
+	display: block;	
+}
+.loginbox
+{
+	width: 692px;
+	height: 336px;
+	background: 
+	url(../img/images/logininfo.png) no-repeat center;
+	margin-top: 30px;
+}
+.loginbox ul
+{
+	margin-top: 88px;
+	margin-left: 285px;
+	list-style-type: none;
+}
+.longinbox ul li
+{
+	margin-bottom: 25px;
+}
+.loginuser
+{
+	width: 299px;
+	height: 48px;
+	background: 
+	url(../img/images/loginuser.png) no-repeat center;
+	border: none;
+	line-height: 48px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 44px;
+	margin-bottom: 35px;
+}
+.loginpwd
+{
+	width: 299px;
+	height: 48px;
+	background: 
+	url(../img/images/loginpassword.png) no-repeat center;
+	border: none;
+	line-height: 48px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 44px;
+	margin-bottom: 35px;
+}
+.loginbtn
+{
+	width: 111px;
+	height: 35px;
+	background: 
+	url(../img/images/buttonbg.png) no-repeat center;
+	line-height: 35px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	cursor:pointer;
+}
+
+#mainBody {width:100%;height:100%;position:absolute;z-index:-1;}
+.cloud {position:absolute;top:0px;left:0px;width:100%;height:100%;background:url(../img/images/cloud.png) no-repeat;z-index:1;opacity:0.5;}
+
+.loginbm
+{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background:
+	url(../img/images/loginbg2.png) repeat-x;
+	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+}
+
+/*顶部*/
+.topleft{
+	height: 88px;
+	background:
+	url(../img/images/topleft.jpg) no-repeat;
+	float: left;
+	width: 300px;
+	
+}
+.topleft img{
+	margin-top: 12px;
+	margin-left: 12px;
+	
+}
+.nav{
+	float: left;
+}
+.nav li
+{
+	float: left;
+	width: 87px;
+	height: 88px;
+	text-align: center;
+	list-style-type: none
+}
+.nav li img{
+	margin-top: 10px;
+}
+
+.nav h2{
+	color: #fff;
+	font-size: 15px;
+}
+.topright
+{
+	height: 88px;
+	float: right;
+	background:
+	url(../img/images/topright.jpg) no-repeat right;
+	
+}
+.topright ul{
+	padding-top: 15px;
+	padding-right: 15px;
+	float: right;
+
+}
+.topright ul li{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	background:
+	url(../img/images/line.gif) no-repeat right;
+	color: #fff;
+	list-style-type: none
+}
+.topright ul li:last-child
+{
+	background: none;
+}
+.topright ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*左侧*/
+
+.lefttop{
+	background:
+	url(../img/images/lefttop.gif) repeat-x ;
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	
+}
+.lefttop span{
+	background:
+	url(../img/images/leftico.png) no-repeat ;
+	margin-left: 8px;
+	margin-top: 10px;
+	margin-right: 8px;
+	width: 20px;
+	height: 21px;
+	float: left;
+	
+}
+.leftmenu{
+	width: 187px;
+	background:
+	url(../img/images/leftline.gif) repeat-y right ;
+	padding-bottom: 9999px;
+	margin-bottom: -9999px;
+	
+}
+.leftmenu dd{
+	background:
+	url(../img/images/leftmenubg.gif) repeat-x ;
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 14px;
+	border-right: solid 1px #b7d5df;
+	
+}
+.leftmenu dd span{
+	float: left;
+	margin: 10px 8px 0 12px;
+	
+}
+.menuson
+{
+	line-height: 30px;
+	font-weight: normal;
+}
+.menuson li cite
+{
+	background:
+	url(../img/images/list.gif) no-repeat ;
+	margin-left: 32px;
+	float: left;
+	width: 16px;
+	height:16px;
+	margin-top: 7px;
+}
+.menuson li.active
+{
+	background:
+	url(../img/images/libg.png) repeat-x ;
+	line-height: 30px;
+	color: #fff;
+}
+.menuson li.active cite
+{
+	background:
+	url(../img/images/list1.gif) repeat-x ;
+}
+/*右侧*/
+.place{
+	height: 40px;
+	background:
+	url(../img/images/righttop.gif) repeat-x ;
+}
+.place span
+{
+	line-height: 40px;
+	float: left;
+	font-weight: bold;
+	margin-left: 12px;
+	
+}
+.place li{
+	float: left;
+	line-height: 40px;
+	padding-left: 7px;
+	padding-right: 12px;
+	background:
+	url(../img/images/rlist.gif) no-repeat right ;
+	list-style-type: none
+}
+.mainindex{
+	padding: 20px;
+}
+.welinfo{
+	height: 32px;
+	line-height: 32px;
+	padding-bottom: 8px;
+}
+.welinfo span{
+	float: left;
+}
+.xline{
+	border-bottom: 1px dotted #90a2bc;
+	height: 5px;
+}
+.iconlist{
+	padding-left: 40px;
+}
+.iconlist li{
+	float: left;
+	text-align: center;
+	margin-right: 25px;
+	margin-top: 25px;
+	list-style-type: none
+}
+.ibox{
+	clear: both;
+	padding-left: 40px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+.ibtn{
+	background:
+	url(../img/images/ibtnbg.png) repeat-x ;
+	border: solid 1px #90A2BC;
+	height: 23px;
+	line-height: 23px;
+	float: left;
+	padding: 0 15px;
+	display: block;
+}
+.ibtn img{
+	margin-top:5px ;
+	float: left;
+	padding-right:7px ;
+}
+
+/*proadd*/
+.formbody{
+	padding: 10px 18px;
+}	
+.itab{
+	height: 36px;
+	border-bottom: solid 1px #d0dee5;
+	border-left: solid 1px #d0dee5;
+}
+.itab ul li{
+	float: left;
+	height: 37px;
+	line-height: 37px;
+	background:
+	url(../img/images/itabbg.png) repeat-x ;
+	list-style-type: none;
+	border-right:solid 1px #D0DEE5 ;
+}
+.itab ul li a{
+	font-size: 14px;
+	color: #000;
+	padding-left:25px ;
+	padding-right: 25px;
+	text-decoration: none;
+}
+.itab ul li a.selected
+{
+	height: 37px;
+	background:
+	url(../img/images/itabbg1.png) repeat-x ;
+	font-weight: bold;
+	display: block;
+}
+.tabson{
+	margin: 18px 0;
+}
+.formtext{
+	height: 45px;
+	line-height: 20px;
+	padding-left: 25px;
+	
+}
+.forminfo{
+	padding-left:23px ;
+}
+.forminfo li{
+	margin-bottom:13px ;
+	clear: both;
+	list-style-type: none
+}
+.forminfo li label{
+	width: 86px;
+	line-height: 34px;
+	float: left;
+	display: block;
+}
+.dfinput{
+	width: 345px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: solid 1px #d0dee5;
+	border-left: solid 1px #d0dee5;
+	border-top: solid 1px #d0dee5;
+	border-right: solid 1px #d0dee5;
+	text-indent: 10px;
+}
+ .btn{
+ 	width:137px;
+ 	height: 35px;
+ 	background:
+	url(../img/images/btnbg.png) no-repeat ;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+ }
+ .tablelist{
+ 	border: solid 1px #cbcbcb;
+ 	width: 100%;
+ 	clear: both;
+ }
+ .tablelist th{
+ 	background:
+	url(../img/images/th.gif) repeat-x ;
+	height: 34px;
+	line-height: 34px;
+	border-bottom:solid 1px #b6cad2 ;
+	text-indent: 10px;
+	text-align: left;
+ }
+ .tablelist td{
+ 	text-indent: 10px;
+ 	line-height: 35px;
+ 	border-right:dotted 1px #c7c7c7 ;
+ }
+ 
+.rgt_form{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.input_vname{
+	border: 1px solid #6D757A;
+	width: 200px;
+	height: 30px;
+}
+.up_vd_pic{
+	margin-top: 10px;
+}
+.up_vd_pic span{
+	font-size: 13px;
+}
+.up_vd_pic input{
+	margin-top: 10px;
+}
+.up_vd{
+	margin-top: 10px;
+}
+.up_vd span{
+	font-size: 13px;
+}
+.up_vd input{
+	margin-top: 10px;
+}
+.rgt_sbm{
+	margin-top: 10px;
+	width: 200px;
+	height: 30px;
+}
+ 
+
